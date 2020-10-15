@@ -1,6 +1,6 @@
 
 body{
-    
+    background-color: rgb(0, 0, 0);
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(./img/bg.jpg);
     background-position: center center;
     background-size: cover;
@@ -18,11 +18,13 @@ h2{
     color:rgb(86, 62, 240);
     font-family: 'Sansita Swashed', cursive;
     text-decoration: underline;
+    text-align: center;
     
 }
 h3{
     color: rgb(85, 85, 204);
     text-decoration: underline;
+    text-align: center;
 }
 h4{
     text-align: center;
@@ -33,14 +35,18 @@ p{
     color: aqua;
     text-align: center;
 }
+
 li{
     color: rgb(153, 75, 226);
+    text-align: center;
+    list-style: none;
 }
 table{
     width: 70%;
     color: rgb(71, 146, 204);
     display: flex;
     justify-content: space-around;
+    margin: auto;
     
 }
 img{
