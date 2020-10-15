@@ -13,10 +13,12 @@ h1{
 h2{
     color:rgb(34, 0, 255);
     font-family: 'Sansita Swashed', cursive;
+    text-decoration: underline;
     
 }
 h3{
     color: rgb(0, 0, 255);
+    text-decoration: underline;
 }
 h4{
     text-align: center;
